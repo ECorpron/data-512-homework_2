@@ -4,11 +4,11 @@
 The goal of this project is to do some simple analysis on the number of articles and high quality articles per country and region for politicians.
 
 ## Notes
- - Population values and the per capita values are in terms of millions of people.
+- Population values and the per capita values are in terms of millions of people.
 
 ## Intermediary Files
-wp_countries-no_match.txt contains a list of countries that I was not able to match between my initial politican and country file and population by country file. 
-
+- wp_countries-no_match.txt contains a list of countries that I was not able to match between my initial politican and country file and population by country file. 
+- wp_politicians_by_country.csv contains country name, region of the country, the population of the country, the article title (politician name), the revision id used to get article quality score, and the article quality score.
 
 ## Research Implications
 I learned that the countries with the most articles per capita are all western nations, with the fewest being Asian countries. The countries with the highest quality articles per capita are almost entirely in Southern Europe, while the countries with the lowest quality articles per capita aooears to be decently spread. Unsuprisingly then, European and wester n regions outperfom asian and even african regions in articles per capita and quality articles per capita.
